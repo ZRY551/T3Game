@@ -48,9 +48,9 @@ namespace T3Game
         };
         public Dictionary<int, string> chessIndex = new Dictionary<int, string>(){
             { 0, "系统" },
-            { 0, "白方" },
-            { 0, "黑方" },
-            { 0, "空气" },
+            { 1, "白方" },
+            { 2, "黑方" },
+            { 3, "空气" },
         };
 
 
