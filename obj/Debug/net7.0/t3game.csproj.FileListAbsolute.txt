@@ -1,0 +1,15 @@
+C:\Users\admin\Desktop\t3game\bin\Debug\net7.0\t3game.exe
+C:\Users\admin\Desktop\t3game\bin\Debug\net7.0\t3game.deps.json
+C:\Users\admin\Desktop\t3game\bin\Debug\net7.0\t3game.runtimeconfig.json
+C:\Users\admin\Desktop\t3game\bin\Debug\net7.0\t3game.dll
+C:\Users\admin\Desktop\t3game\bin\Debug\net7.0\t3game.pdb
+C:\Users\admin\Desktop\t3game\obj\Debug\net7.0\t3game.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\t3game\obj\Debug\net7.0\t3game.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\Desktop\t3game\obj\Debug\net7.0\t3game.AssemblyInfoInputs.cache
+C:\Users\admin\Desktop\t3game\obj\Debug\net7.0\t3game.AssemblyInfo.cs
+C:\Users\admin\Desktop\t3game\obj\Debug\net7.0\t3game.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\t3game\obj\Debug\net7.0\t3game.dll
+C:\Users\admin\Desktop\t3game\obj\Debug\net7.0\refint\t3game.dll
+C:\Users\admin\Desktop\t3game\obj\Debug\net7.0\t3game.pdb
+C:\Users\admin\Desktop\t3game\obj\Debug\net7.0\t3game.genruntimeconfig.cache
+C:\Users\admin\Desktop\t3game\obj\Debug\net7.0\ref\t3game.dll
