@@ -151,6 +151,8 @@ namespace T3Game
                 {
                     PrintMainInfo();
                     Console.WriteLine(">>> 暂不支持该类型的游戏");
+                    // DrawChessBoard();
+                    // break;
                     continue;
                 }
 
@@ -169,33 +171,54 @@ namespace T3Game
         /////////////////////////////////////////////////////////////////////////////////////////////////////////
 
         public int ingame_playNow = 0;
-        
+
         public List<CheckerboardOperation> ingame_chessHistory = new List<CheckerboardOperation>();
 
+        public static string GetChessByNumber(int n){
+            if( n == 0) return "?";
+            if( n == 1) return "■";
+            if( n == 2) return "■";
+            if( n == 3) return " ";
+            return "";
+        }
 
-
-        public void DrawChessBoard(){
+        public void DrawChessBoard()
+        {
 
             Console.WriteLine("现在轮到 " + playerIndex[this.ingame_playNow] + " 下棋");
             Console.WriteLine("");
-            
-            
-            
+            Console.WriteLine("");
+            for (int i = 0; i < chessboard_line; i++)
+            {
+                for (int j = 0; j < chessboard_line; j++)
+                {
+                    Console.Write(GetChessByNumber(j) + " ");
+
+                }
+                Console.WriteLine("");
+                Console.WriteLine("");
+            }
+            Console.WriteLine("");
+            Console.WriteLine("");
+
+
+
 
 
         }
 
 
-        public void AddChessHistory(int who,int x,int y,int chess,int data){
+        public void AddChessHistory(int who, int x, int y, int chess, int data)
+        {
             var obj = new CheckerboardOperation();
-            obj.who = who;  
+            obj.who = who;
             obj.x = x;
             obj.y = y;
             obj.chess = chess;
             obj.data = data;
             ingame_chessHistory.Add(obj);
         }
-        
+
 
 
 
